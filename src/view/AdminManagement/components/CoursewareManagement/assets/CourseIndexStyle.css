@@ -1,0 +1,75 @@
+.common-layout {
+  height: 100vh; /* 设置整体布局高度为视口高度 */
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  opacity: 0.9;
+}
+
+.el-main {
+  background-color: white;
+  padding: 20px;
+}
+.search-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  width: 100%;
+}
+
+/* 切换控件样式 */
+.footer-toggle {
+  padding: 10px 0; /* 上下内边距 */
+  text-align: center; /* 居中对齐 */
+}
+
+.footer-toggle .el-button {
+  color: green; /* 按钮文字颜色 */
+}
+.coursewareDialog .el-input {
+  --el-input-width: 220px;
+}
+
+.coursewareDialog .el-select {
+  --el-select-width: 220px;
+}
+
+.coursewareUpload .el-upload {
+  --el-upload-dragger-width: 700px;
+}
+
+.pagination-container {
+  background-color: #f5f7fa;
+  /* 分页组件背景颜色 */
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 10px;
+  border-radius: 4px;
+  width: 100%;
+  /* 确保宽度适应父容器 */
+}
+
+.table-wrapper {
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+}
+
+.table-container {
+  background-color: #fff;
+  max-height: 400px;
+  /* 设置最大高度 */
+  overflow: auto;
+  /* 超出高度显示滚动条 */
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.table-container .el-button {
+  margin: 1px 1px;
+  padding: 4px 4px;
+}

@@ -1,0 +1,60 @@
+.common-layout {
+  height: 100vh; /* 设置整体布局高度为视口高度 */
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  background-color: white;
+  opacity: 0.9;
+}
+
+/* 卡片容器 */
+.card-container {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.h1 {
+  font-size: 3rem;
+  text-align: left;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  font-size: 3rem;
+  /* 这是标题的字体大小，可以调整为你需要的大小 */
+  font-weight: bold;
+  /* 设置加粗，可以去掉此行或改为其他值 */
+  color: #FFD700;
+  /* 设置标题的颜色，可以调整为任何有效颜色代码 */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  /* 调整阴影效果 */
+}
+
+.search-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.el-main {
+  background-color: white;
+  padding: 20px; /* 添加内边距以提高可读性 */
+}
+
+/* 切换控件样式 */
+.footer-toggle {
+  padding: 10px 0; /* 上下内边距 */
+  text-align: center; /* 居中对齐 */
+}
+
+.footer-toggle .el-button {
+  color: green; /* 按钮文字颜色 */
+}
+.coursewareDialog .el-input {
+  --el-input-width: 220px;
+}
+
+.coursewareDialog .el-select {
+  --el-select-width: 220px;
+}
+
+.coursewareUpload .el-upload {
+  --el-upload-dragger-width: 700px;
+}
